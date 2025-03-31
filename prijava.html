@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt - Mazor</title>
+    <title>Prijava - Mazor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -228,7 +228,7 @@ body {
 }
 
 .mobile-nav a.sve-kategorije {
-    background-color: #111;
+    background-color: #fff;
 }
 
 .mobile-nav a.sve-kategorije i {
@@ -398,7 +398,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #124e9a#fff;
+    background-color: #124e9a;
     color: #fff;
     padding: 40px 0 20px;
     margin-top: 50px;
@@ -553,237 +553,6 @@ body {
     font-size: 12px;
 }
 
-/* Kontakt stranica - stil */
-.contact-page-container {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 15px;
-}
-
-.contact-page-title {
-    font-size: 28px;
-    margin-bottom: 30px;
-    color: #333;
-    text-align: center;
-    position: relative;
-}
-
-.contact-page-title:after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background-color: #124e9a;
-}
-
-.contact-sections {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.map-section {
-    flex: 1;
-    min-width: 300px;
-}
-
-.map-section iframe {
-    width: 100%;
-    height: 450px;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info-section {
-    flex: 1;
-    min-width: 300px;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info-section h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    color: #333;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-.contact-info-section h2:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-}
-
-.contact-info-list {
-    margin-bottom: 30px;
-}
-
-.contact-info-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.contact-info-item i {
-    color: #fff;
-    font-size: 18px;
-    min-width: 20px;
-    text-align: center;
-}
-
-.contact-info-item .info-content {
-    flex: 1;
-}
-
-.contact-info-item h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.contact-info-item p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-}
-
-.contact-info-item a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.contact-info-item a:hover {
-    text-decoration: underline;
-}
-
-.working-hours {
-    margin-top: 30px;
-}
-
-.working-hours h3 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.hours-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.hour-item {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: #666;
-}
-
-.hour-item.today {
-    font-weight: bold;
-    color: #333;
-}
-
-.contact-form-section {
-    width: 100%;
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 50px;
-}
-
-.contact-form-section h2 {
-    font-size: 22px;
-    margin-bottom: 20px;
-    color: #333;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-.contact-form-section h2:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 30px;
-    height: 2px;
-    background-color: #fff;
-}
-
-.contact-form {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 8px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: border-color 0.3s;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    border-color: #fff;
-    outline: none;
-}
-
-.form-group textarea {
-    min-height: 150px;
-    resize: vertical;
-}
-
-.submit-btn {
-    background-color: #124e9a;
-    color: white;
-    border: none;
-    padding: 14px 30px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.submit-btn:hover {
-    background-color: #4470a8;
-}
-.telefon{
-    display: none;
-}
-#telefon{
-    display: none;
-}
 .mobile-nav {
     position: fixed;
     top: 0;
@@ -827,7 +596,7 @@ body {
 }
 
 .mobile-nav a.sve-kategorije {
-    background-color: #fff;
+    background-color: #111;
 }
 
 .mobile-nav a.sve-kategorije i {
@@ -933,13 +702,114 @@ body {
     justify-content: space-between;
 }
 
-/* Responsiveness */
-@media (max-width: 1250px) {
-    .contact-sections {
-        flex-direction: column;
-    }
+.telefon{
+    display: none;
+}
+#telefon{
+    display: none;
 }
 
+/* Login forma stilovi */
+.login-container {
+    max-width: 450px;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #fff;
+    outline: none;
+}
+
+.forgot-password {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.forgot-password a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.forgot-password a:hover {
+    color: #e4dcdc;
+}
+
+.login-btn {
+    background-color: #124e9a;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #0a3b77;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-link a {
+    color: #124e9a;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-link a:hover {
+    color: #e4dcdc;
+}
+
+/* Responsiveness */
 @media (max-width: 768px) {
     .telefon{
         display: flex;
@@ -985,14 +855,6 @@ body {
     
     .mobile-footer {
         display: block;
-    }
-    
-    .map-section iframe {
-        height: 300px;
-    }
-    
-    .contact-form {
-        grid-template-columns: 1fr;
     }
     
     .mobile-top-nav {
@@ -1095,26 +957,22 @@ body {
         padding: 10px 15px !important;
         font-size: 14px !important;
     }
+    
+    .login-container {
+        margin: 103px 15px;
+        padding: 20px;
+    }
+
 }
 
 @media (max-width: 576px) {
-    .contact-page-title {
-        font-size: 24px;
-    }
-    
-    .contact-info-section,
-    .contact-form-section {
-        padding: 20px;
-    }
-    
-    .map-section iframe {
-        height: 250px;
+    .login-title {
+        font-size: 20px;
     }
 }
     </style>
 </head>
 <body>
-    <!-- Main header with logo and search -->
     <div class="main-header">
         <div class="header-container">
             <!-- Desktop view -->
@@ -1194,108 +1052,28 @@ body {
             <a href="#">NOVOSTI</a>
         </div>
     </div>
-    <div class="contact-page-container">
-        <h1 class="contact-page-title">Kontaktirajte nas</h1>
-        
-        <div class="contact-sections">
-            <!-- Mapa sekcija -->
-            <div class="map-section">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4141.40843114528!2d18.945542390498304!3d42.779512764509484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134da999780e9951%3A0x3b781977ecfc7d72!2sMazor-Tehnoshop!5e0!3m2!1sen!2s!4v1743226187889!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div class="logindiv">
+    <div class="login-container">
+        <h1 class="login-title">Prijavite se</h1>
+        <form class="login-form">
+            <div class="form-group">
+                <label for="email">Email adresa *</label>
+                <input type="email" id="email" name="email" required>
             </div>
-            
-            <!-- Kontakt informacije sekcija -->
-            <div class="contact-info-section">
-                <h2>Kontakt informacije</h2>
-                <div class="contact-info-list">
-                    <div class="contact-info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="info-content">
-                            <h3>Adresa</h3>
-                            <p>BR.6 Dr Nika Miljanića, Nikšić 81400, Crna Gora</p>
-                        </div>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <div class="info-content">
-                            <h3>Telefon</h3>
-                            <p><a href="tel:+38269206050">+382 69 206 050</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info-content">
-                            <h3>Email</h3>
-                            <p><a href="mailto:mazor@t-com.me">mazor@t-com.me</a></p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="working-hours">
-                    <h3>Radno vrijeme</h3>
-                    <div class="hours-list">
-                        <div class="hour-item today">
-                            <span>Ponedjeljak:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Utorak:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Srijeda:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Četvrtak:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Petak:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Subota:</span>
-                            <span>09:00 - 21:00</span>
-                        </div>
-                        <div class="hour-item">
-                            <span>Nedjelja:</span>
-                            <span>Ne radimo</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="form-group">
+                <label for="password">Lozinka *</label>
+                <input type="password" id="password" name="password" required>
             </div>
+            <div class="forgot-password">
+                <a href="email.html">Zaboravili ste lozinku?</a>
+            </div>
+            <button type="submit" class="login-btn">PRIJAVITE SE</button>
+        </form>
+        <div class="register-link">
+            Nemate nalog? <a href="registracija.html">Kreirajte</a>
         </div>
-        
-        <!-- Kontakt forma sekcija -->
-        <div class="contact-form-section">
-            <h2>Pošaljite nam poruku</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Vaše ime i prezime:</label>
-                    <input type="text" id="name" name="name" placeholder="Unesite ime i prezime..." required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email adresa:</label>
-                    <input type="email" id="email" name="email" placeholder="Unesite email adresu..." required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Broj telefona:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Unesite broj telefona...">
-                </div>
-                <div class="form-group">
-                    <label for="subject">Predmet:</label>
-                    <input type="text" id="subject" name="subject" placeholder="Unesite predmet poruke...">
-                </div>
-                <div class="form-group" style="grid-column: 1 / -1;">
-                    <label for="message">Vaša poruka:</label>
-                    <textarea id="message" name="message" placeholder="Unesite vašu poruku..." required></textarea>
-                </div>
-                <div class="form-group" style="grid-column: 1 / -1;">
-                    <button type="submit" class="submit-btn">POŠALJI PORUKU</button>
-                </div>
-            </form>
-        </div>
-    </div>
+    </div></div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -1516,7 +1294,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Close dropdown when clicking outside
         document.addEventListener('click', function(e) {
-            if (megaDropdown.style.display === 'block' && 
+            if (megaDropdown && megaDropdown.style.display === 'block' && 
                 !megaDropdown.contains(e.target) && 
                 e.target !== sveKategorijeBtn) {
                 megaDropdown.style.display = 'none';
@@ -1524,61 +1302,45 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+    
+    // Login form validation
+    const loginForm = document.querySelector('.login-form');
+    
+    if (loginForm) {
+        loginForm.addEventListener('submit', function(e) {
+            e.preventDefault();
             
-            // Postavi današnji dan u radnom vremenu
-            const dayOfWeek = new Date().getDay(); // 0 = nedjelja, 1 = ponedjeljak, itd.
-            const hourItems = document.querySelectorAll('.hour-item');
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
             
-            if (hourItems.length > 0) {
-                // Ukloni .today klasu sa svih elemenata
-                hourItems.forEach(item => item.classList.remove('today'));
-                
-                // Dodaj .today klasu odgovarajućem danu
-                // Note: Prilagođavamo indeks jer dayOfWeek daje 0 za nedjelju, a naša lista počinje od ponedjeljka
-                const todayIndex = dayOfWeek === 0 ? 6 : dayOfWeek - 1;
-                if (hourItems[todayIndex]) {
-                    hourItems[todayIndex].classList.add('today');
-                }
+            if (!email || !password) {
+                alert('Molimo unesite email adresu i lozinku.');
+                return;
             }
             
-            // Validacija kontakt forme
-            const contactForm = document.querySelector('.contact-form');
-            
-            if (contactForm) {
-                contactForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    // Osnovna validacija
-                    const name = document.getElementById('name').value;
-                    const email = document.getElementById('email').value;
-                    const message = document.getElementById('message').value;
-                    
-                    if (!name || !email || !message) {
-                        alert('Molimo popunite sva obavezna polja.');
-                        return;
-                    }
-                    
-                    // Validacija email formata
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                    if (!emailRegex.test(email)) {
-                        alert('Molimo unesite ispravan email format.');
-                        return;
-                    }
-                    
-                    // Ako je sve u redu, možete ovdje dodati kod za slanje forme
-                    alert('Vaša poruka je uspješno poslata! Odgovorićemo vam u najkraćem mogućem roku.');
-                    contactForm.reset();
-                });
+            // Validacija email formata
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Molimo unesite ispravan email format.');
+                return;
             }
             
-            // Ažuriranje godine u footeru
-            const currentYear = new Date().getFullYear();
-            const footerYearElements = document.querySelectorAll('.footer-bottom p, .mobile-copyright');
+            // Ovde bi išao kod za slanje podataka na server za prijavu
+            console.log('Prijava uspešna');
             
-            footerYearElements.forEach(element => {
-                element.textContent = `© ${currentYear} Marko Ivanović`;
-            });
+            // Redirect nakon uspešne prijave
+            // window.location.href = '/';
         });
+    }
+    
+    // Ažuriranje godine u footeru
+    const currentYear = new Date().getFullYear();
+    const footerYearElements = document.querySelectorAll('.footer-bottom p, .mobile-copyright');
+    
+    footerYearElements.forEach(element => {
+        element.textContent = `© ${currentYear} Marko Ivanović`;
+    });
+});
     </script>
 </body>
 </html>
