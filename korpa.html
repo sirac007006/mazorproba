@@ -1075,7 +1075,7 @@
             <i class="fas fa-shopping-cart"></i>
             <h2>Vaša korpa je prazna</h2>
             <p>Izgleda da još niste dodali proizvode u korpu. Istražite naš katalog da pronađete ono što vam treba.</p>
-            <a href="kupovina.html" class="continue-shopping">Nastavite kupovinu</a>
+            <a href="index.html" class="continue-shopping">Nastavite kupovinu</a>
         </div>
         
         <!-- Prikaz kada korpa ima proizvode - optimizovano za mobilne uređaje -->
@@ -1189,7 +1189,7 @@
                     </div>
                     
                     <button class="checkout-btn">
-                        Nastavite na plaćanje <i class="fas fa-arrow-right"></i>
+                        <a href="kupovina.html" style="text-decoration: none; color: white;">Nastavite na plaćanje <i class="fas fa-arrow-right"></i></a>
                     </button>
                 </div>
             </div>
@@ -1464,14 +1464,7 @@
                 // Update product count
                 document.querySelector('.summary-row:first-child span:first-child').textContent = `Ukupno proizvoda (${document.querySelectorAll('.cart-item').length})`;
             }
-            
-            // Checkout button
-            if (checkoutBtn) {
-                checkoutBtn.addEventListener('click', function() {
-                    alert('Prebacivanje na stranicu za plaćanje...');
-                });
-            }
-            
+
             // Handle quantity input changes
             const quantityInputs = document.querySelectorAll('.quantity-input');
             quantityInputs.forEach(input => {
